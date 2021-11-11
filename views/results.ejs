@@ -1,0 +1,50 @@
+<%- include("partials/header") %>
+
+<div class="table-frame time-table">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Username</th>
+                <th>Best Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% bestTimes.forEach(function (time, index) { %>
+            <tr>
+                <th><%= index + 1 %></th>
+                <th><%= time[0] %></th>
+                <th><%= time[1][0] + ":" + time[1][1].toLocaleString('en-US', {minimumIntegerDigits:
+                    2}) %></th>
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</div>
+
+<a role="button" href="/cube" class="btn btn-info" id="to-cube">Cube</a>
+
+<div class="table-frame steps-table">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Username</th>
+                <th>Least Moves</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% leastSteps.forEach(function (bestSteps, index) { %>
+            <tr>
+                <th><%= index + 1 %></th>
+                <th><%= bestSteps[0] %></th>
+                <th><%= bestSteps[1]%></th>
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</div>
+
+
+
+<%- include("partials/footer") %>

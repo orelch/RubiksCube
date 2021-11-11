@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(195, 228, 255, 0.452);
+}
+
+.center {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.card {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 300px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.login {
+    width: 100%;
+}
+
+.table-frame {
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.steps-table {
+    left: 65%;
+}
+
+.time-table {
+    left: 35%;
+}
+
+#to-cube {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+}

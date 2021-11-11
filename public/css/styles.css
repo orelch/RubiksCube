@@ -11,8 +11,22 @@
     align-items: center;
 }
 
+.cube {
+    position: absolute;
+    left: 0;
+    width: 75%;
+    height: 100%;
+    background: radial-gradient(rgba(195, 228, 255, 0.452), rgba(0, 204, 0, 0.5), rgba(255, 52, 52, 0.555), #2739ff), url("../images/rubiksCubeLogo-Small-removebg-preview-Opacity.png") center;
+}
 
-
+.control-panel {
+    position: absolute;
+    right: 0;
+    width: 25%;
+    height: 100%;
+    background-color: rgb(252, 255, 59);
+    border-left: 5px solid black;
+}
 
 .displayR {
     transform: translate(-50%, -50%) skew(0deg, -22.5deg);
@@ -75,7 +89,7 @@
     background-color: blue;
 }
 
-.btn {
+.button-group .btn {
     width: 45px;
     height: 45px;
     margin-right: 5px;
@@ -94,6 +108,30 @@
 
 .button-group {
     position: absolute;
-    bottom: 30%;
+    top: 15%;
     right: 10%;
+}
+
+.stopwatchDisplay {
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+}
+
+.displayBox {
+    background-color: rgba(107, 107, 107, 0.651);
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.username {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 5px;
+    background-color: lightsalmon;
 }
