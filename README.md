@@ -1,7 +1,7 @@
 # RubiksCube
 A 3x3 Rubik's Cube simulation
 
-Dependencies: 
+Requirements: 
 1. You must have Node.js installed.
 2. You need to have mongoDB installed and configured.
 
