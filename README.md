@@ -12,5 +12,5 @@ Instructions to run:
 4. Run mongoDB server on a different command prompt.
 5. Run "node app.js" OR "nodemon app.js".
 6. Open your browser and go to "localhost:3000", You should see the authentication screen of the app.
-7. Register a user Or use gmail to log in OR enter as a guest.
+7. Register a user OR use gmail to log in OR enter as a guest.
 8. You are free to play and keep score on the "Results" screen.
