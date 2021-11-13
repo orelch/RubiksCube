@@ -19,6 +19,22 @@ body {
     height: 300px;
 }
 
+#social-card {
+    top: 73%;
+    width: 400px;
+    height: 60px;
+}
+
+.social-card-body {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 380px;
+    display:flex;
+    flex-direction:column;
+}
+
 .card-title {
     text-align: center;
 }
