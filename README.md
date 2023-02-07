@@ -1,11 +1,11 @@
 # RubiksCube
 A 3x3 Rubik's Cube simulation
 
-Requirements: 
+## Requirements: 
 1. You must have Node.js installed.
 2. You need to have mongoDB installed and configured.
 
-Instructions to run:
+## Instructions to run:
 1. Download the code from the repository as a ZIP.
 2. Extract the project's folder from the ZIP.
 3. Open your command prompt on the project's folder
